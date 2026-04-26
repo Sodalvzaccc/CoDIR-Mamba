@@ -1,12 +1,14 @@
-# Training
+# 🚀 Training
 
 This repository provides training scripts for two multimodal sentiment analysis datasets: **MVSA-Single** and **MVSA-Multiple**.
 
-## Dataset Preparation
+---
 
-Please make sure the datasets and pretrained BERT model are placed in the correct directories before training.
+## 📦 Dataset Preparation
 
-The expected paths are shown below:
+Before training, please make sure that the datasets and pretrained BERT model are placed in the correct directories.
+
+### Expected Directory Paths
 
 ```text
 /root/autodl-tmp/cvpr/dataset/MVSA_Single/r-MVSA-S
@@ -14,9 +16,11 @@ The expected paths are shown below:
 /root/autodl-tmp/model/bert-base-uncased
 ```
 
-## Train on MVSA-Single
+---
 
-Run the following command to train the model on the **MVSA-Single** dataset:
+## 🧪 Training on MVSA-Single
+
+Run the following command to train the model on the **MVSA-Single** dataset.
 
 ```bash
 python main.py \
@@ -33,9 +37,11 @@ python main.py \
   --threshold 0.95
 ```
 
-## Train on MVSA-Multiple
+---
 
-Run the following command to train the model on the **MVSA-Multiple** dataset:
+## 🧪 Training on MVSA-Multiple
+
+Run the following command to train the model on the **MVSA-Multiple** dataset.
 
 ```bash
 python main.py \
@@ -52,13 +58,15 @@ python main.py \
   --threshold 0.95
 ```
 
-## Main Arguments
+---
 
-| Argument | Description |
+## ⚙️ Main Configuration
+
+| Argument | Setting |
 | --- | --- |
-| `--bert_model_path` | bert-base-uncaseed |
-| `--gpu` | RTX 4080 super |
-| `--lr` | 1e-4 |
-| `--batch_size` | 2 |
-| `--num_train_iter` | 256 |
-| `--threshold` | 0.95 |
+| `--bert_model_path` | `bert-base-uncased` |
+| `--gpu` | `RTX 4080 Super` |
+| `--lr` | `1e-4` |
+| `--batch_size` | `2` |
+| `--num_train_iter` | `256` |
+| `--threshold` | `0.95` |

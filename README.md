@@ -4,6 +4,17 @@ This repository provides training scripts for two multimodal sentiment analysis 
 
 ---
 
+
+## 🔗 Best Model Checkpoints
+
+The best-performing model checkpoints used in our experiments are available at the following Google Drive link:
+
+[Download Best Model Checkpoints](https://drive.google.com/drive/folders/1Ucn4c8jwVOAMsx47oeeNmUlPZTKjP3l4?usp=sharing)
+
+Please download the checkpoints and place them in the corresponding directory before evaluation or reproduction.
+
+---
+
 ## 📦 Data Preparation
 
 The relabeled MVSA datasets used in this project are obtained following the dataset instructions provided by the official implementation of:

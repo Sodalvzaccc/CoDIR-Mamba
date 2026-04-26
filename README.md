@@ -15,7 +15,6 @@ Please download the relabeled MVSA dataset according to the instructions in the 
 
 ---
 
----
 
 ## 🙏 Acknowledgement
 

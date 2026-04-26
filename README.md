@@ -4,18 +4,24 @@ This repository provides training scripts for two multimodal sentiment analysis 
 
 ---
 
-## 📦 Dataset Preparation
+## 📦 Data Preparation
 
-Before training, please make sure that the datasets and pretrained BERT model are placed in the correct directories.
+The relabeled MVSA datasets used in this project are obtained following the dataset instructions provided by the official implementation of:
 
-### Expected Directory Paths
+> **Seek Common Ground While Reserving Differences: Semi-supervised Image-Text Sentiment Recognition**  
+> Official repository: [Seek-Common-Ground-While-Reserving-Differences](https://github.com/wuyou-xia/Seek-Common-Ground-While-Reserving-Differences)
 
-```text
-/root/autodl-tmp/cvpr/dataset/MVSA_Single/r-MVSA-S
-/root/autodl-tmp/cvpr/dataset/MVSA/r-MVSA
-/root/autodl-tmp/model/bert-base-uncased
-```
+Please download the relabeled MVSA dataset according to the instructions in the above repository, and then update the dataset paths in the training commands.
 
+---
+
+---
+
+## 🙏 Acknowledgement
+
+We sincerely thank the authors of **Seek Common Ground While Reserving Differences: Semi-supervised Image-Text Sentiment Recognition** for releasing their code and relabeled MVSA dataset.
+
+Our work is developed based on their released dataset setting and experimental foundation.
 ---
 
 ## 🧪 Training on MVSA-Single

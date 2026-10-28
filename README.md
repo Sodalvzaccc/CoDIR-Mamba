@@ -81,7 +81,7 @@ python main.py \
 | Argument | Setting |
 | --- | --- |
 | `--bert_model_path` | `bert-base-uncased` |
-| `--gpu` | `RTX 4080 Super` |
+| `--gpu` | `RTX 4090` |
 | `--lr` | `1e-4` |
 | `--batch_size` | `2` |
 | `--num_train_iter` | `256` |
